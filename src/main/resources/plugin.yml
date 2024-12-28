@@ -1,0 +1,68 @@
+name: SMPTraveller
+version: '1.0-SNAPSHOT'
+main: SMPTraveller.SMPTraveller
+api-version: '1.20'
+
+commands:
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+    permission: SMPTraveller.spawn
+    permission-message: You do not have permission to use this command.
+
+  end:
+    description: Teleport to the end portal.
+    usage: /end
+    permission: SMPTraveller.end
+    permission-message: You do not have permission to use this command.
+
+  shop:
+    description: Teleport to the shopping district.
+    usage: /shop
+    permission: SMPTraveller.shop
+    permission-message: You do not have permission to use this command.
+
+  travel:
+    description: Teleport to a location.
+    usage: /travel <location>
+    permission: SMPTraveller.travel
+    permission-message: You do not have permission to use this command.
+
+  traveller:
+    description: Display the traveller menu.
+    usage: /traveller <subcommand>
+    permission: SMPTraveller.use
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  SMPTraveller.spawn:
+    description: Allows teleportation to spawn.
+    default: true
+
+  SMPTraveller.end:
+    description: Allows teleportation to the end portal.
+    default: true
+
+  SMPTraveller.shop:
+    description: Allows teleportation to the shopping district.
+    default: true
+
+  SMPTraveller.travel:
+    description: Allows teleportation to specified locations.
+    default: true
+
+  SMPTraveller.use:
+    description: Allows access to the /traveller command.
+    default: true
+
+  SMPTraveller.set:
+    description: Allows setting a location with /traveller set.
+    default: op
+
+  SMPTraveller.reload:
+    description: Allows reloading the plugin.
+    default: op
+
+  SMPTraveller.remove:
+    description: Allows removing a location with /traveller remove.
+    default: op

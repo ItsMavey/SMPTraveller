@@ -6,7 +6,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import SMPTraveller.utils.DataManager;
 import SMPTraveller.utils.Teleports;
-import tv.twitch.ItsMavey.sMPTraveller.commands.*;
 
 import java.util.Objects;
 

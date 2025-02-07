@@ -1,5 +1,7 @@
 # SMPTraveller
 
+<img src="logo.png" width="500" height="auto">
+
 This plugin as been develop for the Nexus SMP of [ItsMavey](https://twitch.tv/itsmavey) on Twitch.
 
 This plugin is a simple plugin that allow the player to travel at some location in different world.

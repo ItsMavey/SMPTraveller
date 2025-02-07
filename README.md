@@ -1,5 +1,8 @@
 # SMPTraveller
 
+*All right reserved*
+*Not security tested, use at your own risk*
+
 <img src="logo.png" width="500" height="auto">
 
 This plugin as been develop for the Nexus SMP of [ItsMavey](https://twitch.tv/itsmavey) on Twitch.

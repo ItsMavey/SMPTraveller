@@ -57,8 +57,8 @@ Finally, you need to restart the server to load the plugin.
 
 #### - /traveller
 
-> /traveller set <location> [x , y, z] [yaw, pitch] [world] : Add a location to the list of location that the player can travel.
+> /traveller set (location) [x , y, z] [yaw, pitch] [world] : Add a location to the list of location that the player can travel.
 >
-> /traveller remove <location>: Remove a location from the list of location that the player can travel.
+> /traveller remove (location): Remove a location from the list of location that the player can travel.
 >
-> /traveller delete <location>: Delete a location from the list of location that the player can travel.
+> /traveller delete (location): Delete a location from the list of location that the player can travel.
